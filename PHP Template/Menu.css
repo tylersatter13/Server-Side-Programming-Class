@@ -1,0 +1,107 @@
+/*v=vertical,h=horizontal, s=sidebar,*/
+
+.vertical{ /* Controls basic parameters for vertical menus*/
+
+
+}
+.horizontal{/* Controls basic parameters for horizontal menus*/
+    background-color: #0C2C52;
+    width:980px;
+    border-radius: 25px;
+    margin: 10px;
+}
+.sidebar_Menu{ /*basic settings for the side bar  menu*/
+    width: 460px;
+}
+li a.active{ /*Highlights the active link*/
+    background-color: #5E9DC8;
+    color: white;
+    border-radius: 25px;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.ulS{ /*ul class for sidebard*/
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 100%;
+    overflow: auto;
+    border: 1px solid #555;
+}
+.liS{
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+}
+.liS a{
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+
+.ulV{
+    border-radius: 25px;
+    border: 1px solid #555;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    width: 980px;
+    background-color: #f1f1f1;
+    text-align: center;
+
+}
+.liV { /*vertical menu  layout li*/
+     text-align: center;
+   border-bottom: 1px solid #555;
+   font-size: 40px;
+}
+.liV a { /*vertical menu layout li */
+  display: block;
+  color: #000;
+  padding: 8px 0 8px 16px;
+  text-decoration: none;
+}
+
+
+.liV a:hover { /*vertical menu  layout hover*/
+   background-color: #555;
+    color: white;
+
+}
+
+.ulH {/*horizontal menu layout ul*/
+font-size: 25px;
+border-radius: 25px;
+padding: 10px;
+list-style-type: none;
+margin: 0;
+overflow: hidden;
+color: #0C2C52;
+}
+
+.liH {/*horizontal menu layout li*/
+    float: left;
+    color: #0C2C52;
+
+}
+.liH a {/*horizontal menu layout li a*/
+    display: block;
+    color: #DCF0F7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.liH a:hover {/*horizontal menu layout hover*/
+    background-color: #5E9DC8;
+}
+
+

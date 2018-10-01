@@ -1,0 +1,48 @@
+html{
+    background-color: #5E9DC8;
+    width: 960px;
+    font-family: 'Comfortaa', cursive;
+}
+
+h1, h3{
+    text-align: center;
+    margin: 10px;
+    font-size: 60px;
+    font-family: 'Comfortaa', cursive;
+    width: 980px;
+}
+h2{
+    text-align: center;
+}
+p{
+
+
+}
+aside{
+    float: inherit;
+    width:480px;
+    margin:20px;
+}
+.liHours{
+    margins:10px;
+}
+article{ /* article using the create articles method*/
+    background-color: aliceblue;
+    color: #0C2C52;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    width: 980px;
+    font-size: 20px;
+}
+.floatingTemplate{/*article for about page and help page*/
+    background-color:#DCF0F7;
+    border-radius: 25px;
+    color: #0C2C52;
+    padding: 15px;
+    margin: 15px;
+    width:600px;
+    float: right;
+    font-size: 20px;
+}
+
